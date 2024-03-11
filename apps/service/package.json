@@ -1,6 +1,6 @@
 {
   "name": "service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Nostrum background service for alias creation and transfer",
   "main": "./dist/index.js",
   "author": "ohager",
@@ -13,9 +13,9 @@
     "dev": "ts-node -r dotenv/config ./src/index.ts dotenv_config_path=.env.local dotenv_config_debug=true"
   },
   "dependencies": {
-    "@signumjs/core": "^1.0.0-rc.70",
-    "@signumjs/crypto": "^1.0.0-rc.70",
-    "@signumjs/util": "^1.0.0-rc.70",
+    "@signumjs/core": "^1.0.0-rc.75",
+    "@signumjs/crypto": "^1.0.0-rc.75",
+    "@signumjs/util": "^1.0.0-rc.75",
     "chalk": "^4.1.2",
     "convict": "^6.2.4",
     "dotenv": "^16.1.3",
